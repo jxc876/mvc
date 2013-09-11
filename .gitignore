@@ -9,3 +9,7 @@
 *.classpath
 *.settings
 *.project
+bin/
+
+# maven #
+target/

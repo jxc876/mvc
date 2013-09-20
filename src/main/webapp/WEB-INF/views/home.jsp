@@ -1,4 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ page session="false" %>
 <html>
 <head>
@@ -6,8 +7,6 @@
 </head>
 <body>
 <h1>
-	Hello world!  
-</h1>
-
+    <spring:message code="home.greeting" /></h1>
 </body>
 </html>

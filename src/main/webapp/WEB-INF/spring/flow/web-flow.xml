@@ -4,15 +4,26 @@
 	xmlns:webflow="http://www.springframework.org/schema/webflow-config"
 	xsi:schemaLocation="http://www.springframework.org/schema/webflow http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd">
 
+    <!-- start this flow from:
+        http://localhost:8080/mvc/flow -->
 
-	<view-state id="home"  view="/home" />
+    <!-- in jsp we can use ${flowExecutionUrl} to advance -->
+    <!-- ex: <a href="${flowExecutionUrl}&_eventId=next">Next</a> -->
 
-	<!-- serve from WEB-INF -->
+    <!-- Note: the first view is the default for a web-flow -->
+
+    <!-- let InternalResourceViewResolver figure out view -->
+	<view-state id="home"  view="home" >
+        <transition on="next" to="step2"/>
+    </view-state>
+
+    <view-state id="step2"  view="step2" />
+
+    <!-- serve from WEB-INF -->
 	<view-state id="home0"  view="/WEB-INF/views/home.jsp" />
 
 	<!-- serve from web app root -->
 	<view-state id="home2"  view="/views/home.jsp" />
-
 
 
 </flow>

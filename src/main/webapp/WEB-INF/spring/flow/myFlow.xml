@@ -18,12 +18,5 @@
     </view-state>
 
     <view-state id="step2"  view="step2" />
-
-    <!-- serve from WEB-INF -->
-	<view-state id="home0"  view="/WEB-INF/views/home.jsp" />
-
-	<!-- serve from web app root -->
-	<view-state id="home2"  view="/views/home.jsp" />
-
-
+	
 </flow>

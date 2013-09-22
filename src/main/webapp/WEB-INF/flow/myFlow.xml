@@ -14,8 +14,13 @@
 	<!-- ex: {flowExecutionUrl}&_eventId_next" -->
 	
 	<view-state id="step1">
-		<transition on="next" to="step2" />
+		<transition on="next" to="pojoAction" />
 	</view-state>
+
+	<action-state id="pojoAction">
+		<evaluate expression="pojoAction.doSomething()" />
+		<transition to="step2"/>
+	</action-state>
 
 	<view-state id="step2"/>
 

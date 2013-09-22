@@ -11,6 +11,9 @@
 *.project
 bin/
 
+#eclipse STS
+.spring*
+
 # intellij
 .idea/
 *.iml

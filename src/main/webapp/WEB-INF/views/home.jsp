@@ -6,6 +6,11 @@
 <title>Home</title>
 </head>
 <body>
+
+	<!--  
+		http://localhost:8080/mvc/
+		https://localhost:8443/mvc/
+	-->
 	<h1>
 		<spring:message code="home.greeting" />
 	</h1>

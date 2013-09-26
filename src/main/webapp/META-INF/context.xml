@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<!-- context.xml -->
+	<!-- Prevents FileNotFoundException when tomcat7 plugin in running war -->
+</Context>

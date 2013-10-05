@@ -15,7 +15,7 @@
 		<spring:message code="home.greeting" />
 	</h1>
 
-	<p>Click the link below to start the flow</p>
+	<p><spring:message code="home.start" /></p>
 	<a href="${pageContext.request.contextPath}/myFlow">myFlow</a>
 
 	<!-- 

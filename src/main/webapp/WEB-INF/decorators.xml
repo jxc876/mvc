@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <decorators defaultdir="/decorators">
+
+	<excludes>
+		<pattern>*.js</pattern>
+		<pattern>*.css</pattern>
+		<pattern>*.txt</pattern>
+		<pattern>/myFlow*</pattern>
+	</excludes>
+
 	<decorator name="basic-theme" page="basic-theme.jsp">
-		<pattern>/*</pattern>
+		<pattern>/</pattern>
 	</decorator>
+
 </decorators>

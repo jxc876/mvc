@@ -14,6 +14,10 @@
 	<logger name="com.mike.mvc">
 		<level value="info" />
 	</logger>
+
+	<logger name="com.mike.aop">
+		<level value="debug" />
+	</logger>
 	
 	<!-- 3rdparty Loggers -->
 	<logger name="org.springframework.core">

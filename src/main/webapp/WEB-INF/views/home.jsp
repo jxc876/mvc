@@ -16,8 +16,10 @@
 	</h1>
 
 	<p><spring:message code="home.start" /></p>
-	<a href="${pageContext.request.contextPath}/myFlow">myFlow</a>
-
+	<a href='<spring:url value="/myFlow" />'>myFlow</a>
+	<p>test</p>
+	<p>${flowExecutionUrl}</p>
+	
 	<!-- 
    	 	${flowExecutionUrl}&_eventId=next
     	${flowExecutionUrl}&_eventId_next 

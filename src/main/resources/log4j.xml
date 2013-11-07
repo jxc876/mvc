@@ -16,7 +16,7 @@
 	</logger>
 
 	<logger name="com.mike.aop">
-		<level value="debug" />
+		<level value="warn" />
 	</logger>
 	
 	<!-- 3rdparty Loggers -->

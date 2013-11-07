@@ -9,13 +9,16 @@
     <http auto-config="true">
         <intercept-url pattern="/myFlow" access="ROLE_USER"/>
     </http>
+    
+    <beans:bean id="customProvider" class="com.mike.security.CustomAuthProvider"/>
 
     <authentication-manager>
-        <authentication-provider>
+        <authentication-provider ref="customProvider" />
+<!--    <authentication-provider>
             <user-service>
                 <user name="admin" password="admin" authorities="ROLE_USER"/>
             </user-service>
-        </authentication-provider>
+        </authentication-provider> -->
     </authentication-manager>
     
 </beans:beans>

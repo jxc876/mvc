@@ -18,7 +18,11 @@
 	<logger name="com.mike.aop">
 		<level value="warn" />
 	</logger>
-	
+
+	<logger name="com.mike.security">
+		<level value="info" />
+	</logger>
+		
 	<!-- 3rdparty Loggers -->
 	<logger name="org.springframework.core">
 		<level value="info" />

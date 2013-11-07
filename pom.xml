@@ -97,6 +97,7 @@
 		</dependency>
 
 		<!-- Logging -->
+		<!-- SLFJ over Log4j -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
@@ -119,12 +120,12 @@
 			<artifactId>log4j</artifactId>
 		</dependency>
 
-		<!-- @Inject -->
+		<!-- @Inject 
 		<dependency>
 			<groupId>javax.inject</groupId>
 			<artifactId>javax.inject</artifactId>
 			<version>1</version>
-		</dependency>
+		</dependency> -->
 
 		<!-- Servlet -->
 		<dependency>

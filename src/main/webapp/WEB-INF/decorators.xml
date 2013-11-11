@@ -6,7 +6,7 @@
 		<pattern>*.css</pattern>
 		<pattern>*.txt</pattern>
 		<pattern>/myFlow*</pattern>
-		<pattern>/spring_security_login</pattern>
+		<pattern>/spring_security_login*</pattern>
 	</excludes>
 
 	<decorator name="basic-theme" page="basic-theme.jsp">

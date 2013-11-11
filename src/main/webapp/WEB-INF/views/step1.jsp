@@ -1,5 +1,4 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@ include file="/WEB-INF/includes/tags.jspf" %>
 <%@ page session="false" %>
 <html>
 <head>
@@ -7,7 +6,7 @@
 </head>
 <body>
     <h1><spring:message code="home.greeting"/></h1>
-
+	
 	<p>This is the first step in the web flow</p>
 
     <!-- This url takes us to next step in the flow -->

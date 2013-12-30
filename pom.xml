@@ -246,8 +246,9 @@
 				<version>2.0</version>
 				<configuration>
 					<path>/${project.name}</path>
-					<port>8080</port>
-					<httpsPort>8443</httpsPort>
+					<!-- -Dmaven.tomcat.port=8xxx -->
+					<port>8001</port>
+					<httpsPort>8003</httpsPort>
 					<keystoreFile>${basedir}/src/main/resources/cert/keystore.jks</keystoreFile>
 					<keystorePass>changeit</keystorePass>
 				</configuration>

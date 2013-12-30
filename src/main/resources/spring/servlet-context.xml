@@ -42,4 +42,6 @@
 
 	<beans:bean id="myLogger" class="com.mike.aop.MyLogger" />
 
+	<view-controller path="/app" view-name="app"/>
+
 </beans:beans>

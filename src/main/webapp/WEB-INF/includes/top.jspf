@@ -11,3 +11,9 @@
 <!-- BootStrap -->
 <script src="http://netdna.bootstrapcdn.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
 <link href="http://netdna.bootstrapcdn.com/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+<!-- Underscore -->
+<script src="http://documentcloud.github.com/underscore/underscore-min.js"></script>
+
+<!-- Backbone -->
+<script src="http://documentcloud.github.com/backbone/backbone-min.js" ></script>

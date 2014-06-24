@@ -5,7 +5,6 @@
 		<pattern>*.js</pattern>
 		<pattern>*.css</pattern>
 		<pattern>*.txt</pattern>
-		<pattern>/myFlow*</pattern>
 		<pattern>/resources/*</pattern>
 		<pattern>/spring_security_login*</pattern>
 	</excludes>

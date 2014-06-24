@@ -14,19 +14,17 @@
 	-->
 
 	<div id="container-narrow">
-			<div class="hero-unit">
-				<p>
-					<spring:message code="home.start" />
-				</p>
-				<a href='<c:url value="/myFlow" />'>myFlow</a>
-			</div>
+		<div class="hero-unit">
+			<p>
+				<spring:message code="home.start" />
+			</p>
+			<ul>
+				<li><a href='<c:url value="/spring_security_login" />'>Login</a></li>
+				<li><a href='<c:url value="/public" />'>Public</a></li>
+				<li><a href='<c:url value="/secure" />'>Secured</a></li>
+			</ul>
+		</div>
 	</div>
-
-
-	<!-- 
-   	 	${flowExecutionUrl}&_eventId=next
-    	${flowExecutionUrl}&_eventId_next 
-    -->
 
 </body>
 </html>

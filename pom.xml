@@ -11,9 +11,7 @@
 	<properties>
 		<java-version>1.6</java-version>
 		<springframework-version>3.2.1.RELEASE</springframework-version>
-		<springframework.webflow-version>2.3.2.RELEASE</springframework.webflow-version>
 		<springframework-security-version>3.1.4.RELEASE</springframework-security-version>
-		<org.aspectj-version>1.6.10</org.aspectj-version>
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 		<log4j-version>1.2.15</log4j-version>
 		<servlet-version>2.5</servlet-version>
@@ -43,7 +41,7 @@
 			<artifactId>spring-context-support</artifactId>
 			<version>${springframework-version}</version>
 		</dependency>
-		
+
 		<!-- MVC -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -51,17 +49,9 @@
 			<version>${springframework-version}</version>
 		</dependency>
 
-		<!-- WebFlow -->
-		<dependency>
-			<groupId>org.springframework.webflow</groupId>
-			<artifactId>spring-webflow</artifactId>
-			<version>${springframework.webflow-version}</version>
-		</dependency>
-
-		<!-- AOP -->
 		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>spring-aop</artifactId>
+			<artifactId>spring-web</artifactId>
 			<version>${springframework-version}</version>
 		</dependency>
 
@@ -80,25 +70,6 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-taglibs</artifactId>
 			<version>${springframework-security-version}</version>
-		</dependency>
-
-
-		<!-- AspectJ -->
-		<dependency>
-			<groupId>org.aspectj</groupId>
-			<artifactId>aspectjrt</artifactId>
-			<version>${org.aspectj-version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>cglib</groupId>
-			<artifactId>cglib</artifactId>
-			<version>2.2.2</version>
-		</dependency>
-		<dependency>
-			<groupId>org.aspectj</groupId>
-			<artifactId>aspectjweaver</artifactId>
-			<version>1.6.11</version>
 		</dependency>
 
 		<!-- Logging -->
@@ -125,12 +96,8 @@
 			<artifactId>log4j</artifactId>
 		</dependency>
 
-		<!-- @Inject 
-		<dependency>
-			<groupId>javax.inject</groupId>
-			<artifactId>javax.inject</artifactId>
-			<version>1</version>
-		</dependency> -->
+		<!-- @Inject <dependency> <groupId>javax.inject</groupId> <artifactId>javax.inject</artifactId> 
+			<version>1</version> </dependency> -->
 
 		<!-- Servlet -->
 		<dependency>

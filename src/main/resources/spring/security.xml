@@ -9,7 +9,7 @@
 
     <!-- spring_security_login /  j_spring_security_logout -->
     <http auto-config="true" use-expressions="true">
-        <intercept-url pattern="/myFlow" access="hasRole('ROLE_USER')"/>
+        <intercept-url pattern="/secure" access="hasRole('ROLE_USER')"/>
     </http>
     
     <beans:bean id="customProvider" class="com.mike.security.CustomAuthProvider"/>

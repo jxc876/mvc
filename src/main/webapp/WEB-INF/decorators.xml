@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+
+	<excludes>
+		<pattern>*.js</pattern>
+		<pattern>*.css</pattern>
+		<pattern>*.txt</pattern>
+		<pattern>/resources/*</pattern>
+		<pattern>/spring_security_login*</pattern>
+	</excludes>
+
+	<decorator name="basic-theme" page="basic-theme.jsp">
+		<pattern>/</pattern>
+	</decorator>
+
+</decorators>

@@ -11,5 +11,13 @@
 *.project
 bin/
 
+#eclipse STS
+.spring*
+
+# intellij
+.idea/
+*.iml
+
 # maven #
 target/
+/.README.md.html

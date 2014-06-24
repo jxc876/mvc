@@ -1,9 +1,15 @@
-#mvc
+#Welcome
 
-normal text, *bold* text
+This is a sample application that show-cases the following technologies:
+* Spring
+* Spring MVC
+* Spring Security
+* Maven
 
-test
+## Instructions:
 
-test 2
+    mvn clean tomcat7:run  
 
-[ ] pending task
+## Navigate to: 
+
+http://localhost:8080/mvc
